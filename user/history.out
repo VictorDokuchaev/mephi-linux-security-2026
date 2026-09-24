@@ -1,0 +1,70 @@
+    1  exit
+    2  ll
+    3  cd ..
+    4  ls
+    5  cd user1/
+    6  touch userid
+    7  ll
+    8  chown root:root userid 
+    9  chown root: userid 
+   10  clear
+   11  chown root: userid 
+   12  mv userid userfile
+   13  chown root: userfile 
+   14  clear
+   15  chown root: userfile 
+   16  ls -l userfile 
+   17  wich chown
+   18  which chown
+   19  cp /usr/bin/chown ~/chown
+   20  ll
+   21  ls -l chown 
+   22  sudo chown root:root ~/chown 
+   23  ll
+   24  exit
+   25  ls -l
+   26  chown root:root userfile 
+   27  ~/chown root:root userfile 
+   28  ls -l
+   29  clear
+   30  su
+   31  exit
+   32  chown root: userfile 
+   33  su
+   34  exi
+   35  exit
+   36  timedatectl set-time "2026-09-24 20:00:00"
+   37  sudo timedatectl set-time "2026-09-24 20:00:00"
+   38  date
+   39  sudo timedatectl set-time "2026-08-24 20:00:00"
+   40  date
+   41  clear
+   42  exit
+   43  cat /etc/shadow
+   44  exit
+   45  ./cat /etc/shadow
+   46  clear
+   47  exit
+   48  history > history.out
+   49  nano history.out 
+   50  stat /home/user1/ > ~/stat.out
+   51  stat ~/chown  ~/stat.out
+   52  stat ~/chown >> ~/stat.out
+   53  stat ~/cat > ~/getcap.out
+   54  ll
+   55  nano getcap.out 
+   56  rm getcap.out 
+   57  getcap ~/cat > ~/getcap.out
+   58  cat getcap.out 
+   59  cat stat.out 
+   60  exit
+   61  ll
+   62  sudo chown root:root chown 
+   63  ls -l
+   64  su -
+   65  exit
+   66  history > history.out
+   67  cd ~
+   68  history > history.out
+   69  nano history.out 
+   70  history > history.out

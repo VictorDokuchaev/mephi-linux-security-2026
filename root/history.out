@@ -1,0 +1,123 @@
+    1  ll
+    2  ls
+    3  ll
+    4  cd ~
+    5  cd /
+    6  ll
+    7  exit
+    8  date
+    9  date -d +90days +%Y-%m-%d
+   10  man change
+   11  clear
+   12  useradd -u 1234 user1
+   13  groupadd students
+   14  usermod -aG students user1
+   15  chage -m 0 -M 90 -W 5 -I 10 user1
+   16  id user1
+   17  chage -l user1
+   18  find / -perm 4000 -type f
+   19  find / -perm /4000 -type f
+   20  clear
+   21  find -type f -perm /4000
+   22  clear
+   23  find / -type f -perm /4000
+   24  ps -eo pit,ruid,euid,user,comm
+   25  ps -eo pid,ruid,euid,user,comm
+   26  ps -eo pid,ruid,euid,user,comm | awk 
+   27  ps -eo pid,ruid,euid,user,comm | awk '$2 != 0 && $3 == 0'
+   28  ps -eo pid,ruid,euid,user,comm | awk '$3 == 0'
+   29  ps -eo pid,ruid,euid,user,comm | awk '$2 != 0 && $3 == 0'
+   30  clear
+   31  passwd &
+   32  ps -eo pid,ruid,euid,user,comm | awk '$2 != 0 && $3 == 0'
+   33  passwd &
+   34  ps -eo pid,ruid,euid,user,comm | awk '$2 != 0 && $3 == 0'
+   35  clear
+   36  passwdc
+   37  passwd &; sleep 1; ps -o pid,ruid,euid,user,comm
+   38  passwd & sleep 1; ps -o pid,ruid,euid,user,comm
+   39  joossfsdf;j
+   40  clear
+   41  exit
+   42  clear
+   43  passwd & sleep 1; ps -o pid,ruid,euid,user,comm
+   44  exit
+   45  whoame
+   46  id
+   47  cd ~
+   48  exit
+   49  chmod u+s /home/user1/chown 
+   50  ls -l
+   51  su - user1
+   52  exit
+   53  ll
+   54  cd /home/user1/
+   55  chown root:root chown 
+   56  ls
+   57  ls -l
+   58  su - user1
+   59  date
+   60  timedatactl
+   61  timedatectl
+   62  timedatectl set-time "2026-09-24 19:25:35"
+   63  timedatectl sen-ntp false
+   64  timedatectl set-ntp false
+   65  timedatectl set-time "2026-09-24 19:26:15"
+   66  date
+   67  timedatectl set-time "2026-08-24 19:26:15"
+   68  date
+   69  visudo -f /etc/sudoers.d/user1-time
+   70  su -user1
+   71  su - user1
+   72  clear
+   73  su - user1
+   74  clear
+   75  which cat
+   76  cp /usr/sbin/cat .
+   77  ls
+   78  ls -l cat 
+   79  setcap cap_dac_read_search=ep /home/user1/cat 
+   80  getcap /home/user1/cat 
+   81  sudo - user1
+   82  su - user1
+   83  clear
+   84  history > ~/history.out
+   85  cd ~
+   86  ll
+   87  cat history.out 
+   88  vim history.out 
+   89  nano history.out 
+   90  su - user1
+   91  find / -type f -perm /4000
+   92  find / -type f -perm /4000 > ~/setuid.out
+   93  find / -type f -perm /4000 > /root/setuid.out
+   94  ll
+   95  cat setuid.out 
+   96  nano history.out 
+   97  passwd & sleep 1; ps -0 pid,ruid,euid,user,comm > /root/processes.out
+   98  exit
+   99  clear
+  100  su -i user1
+  101  su user1
+  102  su - user1
+  103  cd /home/user1/
+  104  passwd user1
+  105  su - user1
+  106  cd ~
+  107  ll
+  108  cat processes.out 
+  109  rm
+  110  ps -o pid,ruid,euid,user,comm
+  111  ps -o pid,ruid,euid,user,comm | awk "$2 != 0 && $3 == 0"
+  112  ps -eo pid,ruid,euid,user,comm | awk "$2 != 0 && $3 == 0"
+  113  ps -eo pid,ruid,euid,user,comm | awk '$2 != 0 && $3 == 0'
+  114  sleep 30 &
+  115  ps -eo pid,ruid,euid,user,comm | awk '$2 != 0 && $3 == 0'
+  116  tmux
+  117  dnf install tmux
+  118  tmux -V
+  119  tmux
+  120  ps -eo pid,ruid,euid,user,comm | awk '$2 != 0 && $3 == 0'
+  121  ps -eo pid,ruid,euid,user,comm | awk '$2 != 0 && $3 == 0' > processes.out 
+  122  cat processes.out 
+  123  history > ~/history.out
